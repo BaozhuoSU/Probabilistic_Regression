@@ -4,7 +4,7 @@ This repo contains experiments code of papper, the structure is as following :
 ```bash
 .
 ├── README.md
-├── requirements.txt
+├── LICIENCE
 ├── data
 │   ├── springback.xlsx
 ├── code
