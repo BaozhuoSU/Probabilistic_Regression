@@ -1,16 +1,17 @@
-# ANCHOR-MOE: A GRADIENT-BOOSTED-TREES-ANCHORED MIXTURE OF EXPERTS FOR PROBABILISTIC REGRESSION
+# Anchor-MoE: A Gradient-Boosted-Trees–Anchored Mixture of Experts for Probabilistic Regression
 
-This repo relates to the experiment of papaer:"add citation here ", which contains : 
+This repository contains the code and notebooks for the paper:  
+**“Anchor-MoE: A Gradient-Boosted-Trees–Anchored Mixture of Experts for Probabilistic Regression”**  
+(*add citation / link here*).
+
+## Repository structure
 ```bash
 .
 ├── README.md
-├── LICIENCE
-├── Moe_Vs_Others.ipynb, results obtained for comparing Anchor-MoE and NGBoost model;
-├── ablation_anchor.ipynb, restults obtained while ablating anchor part;
-├── ablation_router.ipynb, restults obtained while ablating router part;
-├── ablation_calibration.ipynb, restults obtained while ablating calibration part;
-├── generateFigures.ipynb, codes used to generate figures which are illustrated in paper;
-├── data, a dictinary contains the data used to do experiments which must be used locally;
-
-`````
-
+├── LICENSE
+├── Moe_Vs_Others.ipynb            # Compare Anchor-MoE with NGBoost (NLL/RMSE)
+├── ablation_anchor.ipynb          # Ablation: remove Anchor
+├── ablation_router.ipynb          # Ablation: remove Router
+├── ablation_calibration.ipynb     # Ablation: remove Calibration
+├── generate_figures.ipynb         # Scripts to reproduce paper figures
+└── data/                          # (Local) datasets or cached splits
