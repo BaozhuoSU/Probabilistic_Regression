@@ -17,7 +17,7 @@ This repository contains the code and notebooks for the paper:
 └── data/                          # (Local) datasets or cached splits
 ```
 
-Reproducing results
+## Reproducing results
 
 Open the notebooks in Jupyter and run top-to-bottom:
 	•	Moe_Vs_Others.ipynb for main comparisons (UCI benchmarks).
