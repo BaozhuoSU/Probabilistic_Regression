@@ -15,3 +15,15 @@ This repository contains the code and notebooks for the paper:
 ├── ablation_calibration.ipynb     # Ablation: remove Calibration
 ├── generate_figures.ipynb         # Scripts to reproduce paper figures
 └── data/                          # (Local) datasets or cached splits
+```
+
+Reproducing results
+
+Open the notebooks in Jupyter and run top-to-bottom:
+	•	Moe_Vs_Others.ipynb for main comparisons (UCI benchmarks).
+	•	ablation_*.ipynb for ablations (Anchor / Router / Calibration).
+	•	generate_figures.ipynb to regenerate figures used in the paper.
+
+Note: In our experiments the Protein dataset is down-sampled to 10,000 examples for runtime.
+If you cannot redistribute data, keep data/ for local use only.
+
